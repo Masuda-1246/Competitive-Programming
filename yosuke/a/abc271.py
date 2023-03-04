@@ -1,0 +1,1 @@
+print('{:02x}'.format(int(input())).upper())
