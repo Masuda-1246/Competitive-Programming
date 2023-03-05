@@ -1,5 +1,2 @@
-nk = input().split()
-n = int(nk[0])
-k = int(nk[1])
-
+n, k = map(int, input().split())
 print(k * (k-1)**(n-1))
